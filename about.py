@@ -37,9 +37,9 @@ with st.container(border=True):
             </div>
         """, unsafe_allow_html=True)
     st.markdown("**Lead Scoring**")
-    st.markdown("Upload a screenshot or CSV of leads. The app extracts recency and frequency from data," \
-    " runs it through a trained ML model, and uses Gemini AI to generate personalized sales suggestions for each lead. " \
-    "You can get a quick overview of data and suggestions by using Dashboard option or can download a CSV.")
+    st.markdown("Upload a screenshot or CSV of leads. The app extracts recency and frequency from your data, "
+"runs it through a trained ML model, and uses Gemini AI to generate personalized sales suggestions for each lead. "
+"Use the Dashboard for a quick overview, or download the results as a CSV after uploading.")
 
 with st.container(border=True):
     st.markdown("""
