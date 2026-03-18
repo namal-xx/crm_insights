@@ -18,7 +18,6 @@ from helper_functions import get_ai_response, create_custom_cards_html, show_cha
 
 
 # Gemini API setup
-genai.configure(api_key = "AIzaSyAXss9rpUevyGLP024HUIIykiDeV5q8SIc") # telling the google that i've acces to your api by providing api key
 
 gemini_model = genai.GenerativeModel("gemini-2.5-flash") # Selecting the model 
 
@@ -321,8 +320,6 @@ elif user_input ==  "CSV (multiple leads)":
 
             elif selection == "📊 Dashboard":
 
-                # Filter
-                # left_col, spacer, right_col = st.columns([2.2, 0.4, 2.5])
                 
                 st.subheader("Scored Leads")
 

@@ -39,7 +39,7 @@ with st.container(border=True):
     st.markdown("**Lead Scoring**")
     st.markdown("Upload a screenshot or CSV of leads. The app extracts recency and frequency from your data, "
 "runs it through a trained ML model, and uses Gemini AI to generate personalized sales suggestions for each lead. "
-"Use the Dashboard for a quick overview, or download the results as a CSV after uploading." \
+"Use the Dashboard for a quick overview, or download the results as a CSV after uploading. "
 "You can also ask follow-up questions about your leads through an AI chat interface.")
 
 with st.container(border=True):
