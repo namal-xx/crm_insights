@@ -1,4 +1,10 @@
-pandas
 streamlit
+pandas
+numpy
 plotly
-python
+scikit-learn
+joblib
+google-generativeai
+streamlit-option-menu
+Pillow
+markdown
