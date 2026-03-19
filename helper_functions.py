@@ -161,6 +161,7 @@ def build_message_html(role, content, icon):
     </div>
     """
 
+
 def render_chat(messages): # mesages is a list of dictionarys with "role" and "content" e.g [{"role": "user", "content": "Hello"}, {"role": "assistant", "content": "Hi there!"}]
     messages_html = ""
     for msg in messages:
@@ -259,5 +260,7 @@ def show_chat(ai_model):
         response = ai_model.generate_content(full_prompt)
         reply = response.text.strip()
         st.session_state.messages.append({"role": "assistant", "content": reply})
+    
+    st.write("DEBUG:", st.session_state.get("lead_context", "EMPTY"))
 
     render_chat(st.session_state.messages)
