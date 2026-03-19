@@ -48,6 +48,18 @@ def make_categories(model_probs):
 
 
 
+
+
+def configure_gemini():
+    genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+
+
+
+
+
+
+
+
 def get_ai_response(prompt, model, max_tokens = 7000):
      try:
         suggestion = model.generate_content([prompt],

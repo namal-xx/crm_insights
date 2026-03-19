@@ -7,9 +7,6 @@ import google.generativeai as genai
 genai.configure(api_key = st.secrets["GEMINI_API_KEY"]) # telling the google that i've acces to your api by providing api key
 
 
-
-
-
 st.set_page_config(page_title="CRM Insights", page_icon="📊")
 
 page_options = ["Home", "Lead Scoring", "Customer Segmentation", "About"]

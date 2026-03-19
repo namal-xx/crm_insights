@@ -6,6 +6,8 @@ import streamlit.components.v1 as components
 import plotly.graph_objects as go
 import plotly.express as px
 
+from helper_functions import configure_gemini
+
 import re
 import joblib
 import json
@@ -28,9 +30,7 @@ if "model_response" not in st.session_state:
 if "n_segments" not in st.session_state:
     st.session_state["n_segments"] = None
 
-
-genai.configure(api_key = "AIzaSyAXss9rpUevyGLP024HUIIykiDeV5q8SIc") # telling the google that i've acces to your api by providing api key
-
+configure_gemini()
 gemini_model = genai.GenerativeModel("gemini-2.5-flash") # Selecting the model 
 
 

@@ -10,7 +10,7 @@ import math
 
 
 from helper_functions import make_categories, suggestion_prompt_image, image_prompt, suggestion_promt_csv 
-from helper_functions import get_ai_response, create_custom_cards_html, show_chat
+from helper_functions import get_ai_response, create_custom_cards_html, show_chat, configure_gemini
 
 # Make our chatbot more likley to chatgpt, so a user can ask follow-up questions, rather than chatbot just stops after
 # giving suggestions for the leads.
@@ -18,7 +18,7 @@ from helper_functions import get_ai_response, create_custom_cards_html, show_cha
 
 
 # Gemini API setup
-
+configure_gemini()
 gemini_model = genai.GenerativeModel("gemini-2.5-flash") # Selecting the model 
 
 
