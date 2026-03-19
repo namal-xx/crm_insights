@@ -47,18 +47,8 @@ def make_categories(model_probs):
     return "Hot" if model_probs >= 0.80 else "Warm" if model_probs >= 0.45 else "Cold"    
 
 
-
-
-
 def configure_gemini():
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-
-
-
-
-
-
-
 
 def get_ai_response(prompt, model, max_tokens = 7000):
      try:
@@ -267,7 +257,6 @@ def show_chat(ai_model):
         """
         
         response = ai_model.generate_content(full_prompt)
-        response = ai_model.generate_content(prompt)
         reply = response.text.strip()
         st.session_state.messages.append({"role": "assistant", "content": reply})
 
