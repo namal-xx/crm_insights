@@ -261,6 +261,5 @@ def show_chat(ai_model):
         reply = response.text.strip()
         st.session_state.messages.append({"role": "assistant", "content": reply})
     
-    st.write("DEBUG:", st.session_state.get("lead_context", "EMPTY"))
 
     render_chat(st.session_state.messages)
