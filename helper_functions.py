@@ -261,5 +261,4 @@ def show_chat(ai_model):
         reply = response.text.strip()
         st.session_state.messages.append({"role": "assistant", "content": reply})
     
-
     render_chat(st.session_state.messages)
