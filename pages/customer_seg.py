@@ -78,9 +78,9 @@ if st.session_state.user_csv is not None:
                                 index = saved_index("customer_id"),
                                 placeholder = "e.g., customer_id")    
     
-    frequency  = st.selectbox("Which column refers to Frequnecy?", user_columns, 
+    frequency  = st.selectbox("Which column refers to InvoiceNo?", user_columns, 
                                 index = saved_index("frequency"),
-                                placeholder = "e.g., InvoiceNo")    
+                                placeholder = "e.g., Invoice_no")    
 
     quantity = st.selectbox("Which column refers to Quantity?", user_columns, 
                                 index = saved_index("quantity"),
