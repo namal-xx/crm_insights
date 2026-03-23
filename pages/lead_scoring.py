@@ -298,10 +298,10 @@ elif user_input ==  "CSV (multiple leads)":
                 elif suggestion_scope == "All leads":
                     target_df = target_df.sort_values('Probs', ascending=False)
                     
-
-
-                    cols = ['Customerid', 'Recency', 'Frequency', 'Category', 'Probs', "Suggestions"]
-                    target_df = target_df[cols] if 'Customerid' in target_df.columns else target_df[cols[1:]]
+                    
+                    id_col = next((col for col in df.columns if "id" in col.lower()), None)
+                    cols = [id_col, 'Recency', 'Frequency', 'Category', 'Probs', "Suggestions"]
+                    target_df = target_df[cols] if id_col in target_df.columns else target_df[cols[1:]]
                     
                     
                     # Show table
@@ -384,7 +384,7 @@ elif user_input ==  "CSV (multiple leads)":
 
                 if st.session_state.lead_context: # only show chat if there's context
                     st.divider()
-                    st.subheader("💬 Ask Questions") 
+                    st.subheader("💬 Ask Questions About Leads") 
                     show_chat(ai_model = gemini_model)    
 
 
