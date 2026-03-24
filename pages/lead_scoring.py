@@ -377,11 +377,11 @@ elif user_input ==  "CSV (multiple leads)":
                 # Cards
                 with col1:
                     for _, row in page_df.iloc[:3].iterrows():               
-                        create_custom_cards_html(row)
+                        create_custom_cards_html(row, id_col)
 
                 with col2:
                     for _, row in page_df.iloc[3:6].iterrows():               
-                            create_custom_cards_html(row)
+                            create_custom_cards_html(row, id_col)
 
 
                 # Pagination controls
