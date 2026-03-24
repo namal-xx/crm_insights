@@ -228,7 +228,7 @@ elif user_input ==  "CSV (multiple leads)":
                                                     max_tokens=defined_max_tokens)
                     st.session_state.csv_response = suggestion_text
 
-            target_df["Suggestions"] = st.session_state.csv_response.split("\n\n")
+            suggestions = st.session_state.csv_response.split("\n\n")
 
             # Pad or trim to match the dataframe length
             if len(suggestions) < len(target_df):
@@ -237,7 +237,7 @@ elif user_input ==  "CSV (multiple leads)":
                 suggestions = suggestions[:len(target_df)]
 
                               
-             
+            target_df["Suggestions"] = suggestions
             st.session_state.uploaded_csv = target_df # STORE IN SESSION_STATE     
                 
         if  st.session_state.uploaded_csv is not None:
