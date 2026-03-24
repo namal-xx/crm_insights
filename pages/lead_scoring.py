@@ -318,6 +318,10 @@ elif user_input ==  "CSV (multiple leads)":
                         st.subheader("💬 Ask Questions About Leads")
                         show_chat(ai_model = gemini_model)
 
+            
+          # ======================== for dashboard ==========================
+            
+
             elif selection == "📊 Dashboard":
 
                 
