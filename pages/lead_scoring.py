@@ -229,6 +229,13 @@ elif user_input ==  "CSV (multiple leads)":
                     st.session_state.csv_response = suggestion_text
 
             target_df["Suggestions"] = st.session_state.csv_response.split("\n\n")
+
+            # Pad or trim to match the dataframe length
+            if len(suggestions) < len(target_df):
+                suggestions += ["No suggestion available."] * (len(target_df) - len(suggestions))
+            else:
+                suggestions = suggestions[:len(target_df)]
+
                               
              
             st.session_state.uploaded_csv = target_df # STORE IN SESSION_STATE     
