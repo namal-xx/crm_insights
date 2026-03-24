@@ -324,6 +324,10 @@ elif user_input ==  "CSV (multiple leads)":
 
             elif selection == "📊 Dashboard":
 
+                id_col = next((col for col in df.columns if "id" in col.lower()), None)
+                cols = [id_col, 'Recency', 'Frequency', 'Category', 'Probs', "Suggestions"]
+                target_df = target_df[cols] if id_col in target_df.columns else target_df[cols[1:]]
+   
                 
                 st.subheader("Scored Leads")
 
