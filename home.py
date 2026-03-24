@@ -97,12 +97,17 @@ st.divider()
 
 # ── Recent activity ───────────────────────────────────────────────
 st.markdown("#### Recent activity")
-
 if has_leads:
     df = st.session_state.uploaded_csv
+    id_col = next((col for col in df.columns if "id" in col.lower()), None)  # ← ADD THIS
     recent = df.sort_values("Probs", ascending=False).head(5)
+    
+    cols = ["Recency", "Frequency", "Category", "Probs"]
+    if id_col:
+        cols = [id_col] + cols  # ← prepend whatever ID column exists
+    
     st.dataframe(
-        recent[["Customerid", "Recency", "Frequency", "Category", "Probs"]],
+        recent[cols],  # ← use dynamic cols instead of hardcoded
         use_container_width=True,
         hide_index=True,
     )
