@@ -145,7 +145,7 @@ def create_custom_cards_html(row):
 
     <div style="border-left: 4px solid {color}; padding: 8px 12px; 
     margin-bottom: 8px; background: #1e1e1e; border-radius: 4px;">
-    <b style="color:{color}">Customer {row['Customerid']}</b> &nbsp;    
+    <b style="color:{color}">Lead {row[id_col]}</b> &nbsp;    
     <span style="color:gray; font-size:0.85em">{row['Category']} | Prob: {row['Probs']:.2f} | Freq: {row['Frequency']}</span>
     <p style="margin:4px 0 0 0; font-size:0 .9em">{row['Suggestions']}</p>
     </div>
