@@ -134,7 +134,7 @@ def suggestion_promt_csv(target_df):
 
 
 
-def create_custom_cards_html(row):
+def create_custom_cards_html(row, id_col):
 
     color = {
         "Hot": "#ff4b4b", 
