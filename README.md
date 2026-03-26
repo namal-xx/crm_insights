@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c57f1652-8300-4ae6-8ab3-6f3eec50a4ff" /># AI driven CRM Insights 
+# AI driven CRM Insights 
 
 This is an AI powered CRM dashboard that scores leads and segments customers using Machine learning and Gemini's LLM. You can get follow-up recommendations and ask questions about your leads by using AI chat interface 
 
