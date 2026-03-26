@@ -39,11 +39,11 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
 
 - **Feature Engineering:**    
 
-    - **Customer Segmentation:** 
-           - AOV (Average Order Value)
-           - RFM (Recency, Frequency, Monetary)
-           - Product Diversity
-           - Average purchase differences.
+    - **Customer Segmentation:**
+           1. AOV (Average Order Value)
+           2. RFM (Recency, Frequency, Monetary)
+           3. Product Diversity
+           4. Average purchase differences.
            
     - **Lead Scoring:** 
            - Recency
