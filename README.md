@@ -17,9 +17,17 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
  
  - Upload CSV data to score leads using the lead scoring model.
  - AI-powered chatbot to query and explore your lead data.
- - Automated AI-generated recommendations for follow-ups
- - Customer segmentation using clustering techniques - Automated AI recommendations. 
- - Interactive dashboard to visualize customer segments
- 
+ - Automated AI-generated recommendations for follow-ups.
+ - Customer segmentation using clustering techniques.
+ - Interactive dashboard to visualize customer segments.
 
- 
+
+## Tech Stack:
+
+- **Pandas** – data preprocessing
+- **Scikit-learn** – machine learning models
+- **Gemini (gemini-2.5-flash)** – LLM-powered insights and chat
+- **Plotly** – interactive data visualizations
+- **Streamlit** – web application framework
+
+
