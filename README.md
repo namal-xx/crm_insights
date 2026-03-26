@@ -80,4 +80,30 @@ leads_scoring_model_pipeline.pkl
 scaler_crm.pkl
 ```
 
+## Installation & Setup
 
+### Prerequisites
+- Python 3.10+
+- A Gemini API key from [Google AI Studio](https://aistudio.google.com/)
+
+### Clone the Repository
+```bash
+git clone https://github.com/namal-xx/crm_insights.git
+cd crm-insights
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Environment Variables
+Create a `.env` file in the root directory and add your Gemini API key: 
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+### Run the App
+```bash
+streamlit run app.py
+```
