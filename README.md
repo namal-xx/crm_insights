@@ -34,15 +34,18 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
 ## Machine learning details:
 
 **Models used:** 
+
       - Logistic Regression - Lead scoring.
       - KMeans - Customer segmentation  
 
 **Feature Engineering:**    
+
        1. **Customer Segmentation:** 
            - AOV (Average Order Value)
            - RFM (Recency, Frequency, Monetary)
            - Product Diversity
            - Average purchase differences.
+           
        2. **Lead Scoring:** 
            - Recency
            - Frequency
