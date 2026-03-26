@@ -50,4 +50,34 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
         - Frequency
            
               
+## How it works:
+
+1. Upload CRM data (CSV format)
+2. Data is preprocessed and features are engineered
+3. Leads are scored using a trained Logistic Regression model
+4. Customers are segmented using KMeans clustering
+5. Results are visualized in an interactive dashboard
+6. Users can interact with data using an AI chatbot for insights and recommendations
        
+
+## Project Structure:
+
+```
+.streamlit/
+pages/
+    customer_seg.py
+    lead_scoring.py
+README.md
+.gitignore
+requirements.txt
+crm_logo.png
+app.py
+home.py
+about.py
+helper_functions.py
+kmeans_model_crm.pkl
+leads_scoring_model_pipeline.pkl
+scaler_crm.pkl
+```
+
+
