@@ -107,3 +107,21 @@ GEMINI_API_KEY=your_api_key_here
 ```bash
 streamlit run app.py
 ```
+
+
+## Usage
+
+### Lead Scoring
+1. Navigate to the **Lead Scoring** page and upload your leads CSV
+2. Get scored leads and AI-powered follow-up recommendations
+3. Use the **AI Chat** to ask questions about your leads
+
+### Customer Segmentation
+1. Navigate to the **Customer Segmentation** page and upload your customer CSV
+2. View segments and AI-generated cluster labels along with their reasoning
+
+
+## License
+
+This project is licensed under the MIT License.
+
