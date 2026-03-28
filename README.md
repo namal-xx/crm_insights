@@ -6,14 +6,15 @@ This is an AI powered CRM dashboard that scores leads and segments customers usi
 
 - Check out live app [here](https://crminsights-byeryl6xnrmrnm728amppf.streamlit.app/).
 - Read Article here
+
+![Image of home page](home-page.png)
+
  
 ## Overview:
 
 **What problem does this app solves?**
 
 Many businesses face challenges like poor lead prioritization, lack of customer segmentation, and no clear strategy for follow-ups. This app is designed to solve these problems by providing data-driven insights and intelligent recommendations.
-
-![Image of home page](home-page.png)
 
 
  ## Features:
