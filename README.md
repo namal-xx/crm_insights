@@ -2,12 +2,13 @@
 
 This is an AI powered CRM dashboard that scores leads and segments customers using Machine learning and Gemini's LLM. You can get follow-up recommendations and ask questions about your leads by using AI chat interface 
 
+![Image of home page](home-page.png)
+
+
 ## Links:
 
 - Check out live app [here](https://crminsights-byeryl6xnrmrnm728amppf.streamlit.app/).
 - Read Article here
-
-![Image of home page](home-page.png)
 
  
 ## Overview:
