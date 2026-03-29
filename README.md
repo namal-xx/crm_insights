@@ -34,6 +34,7 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
 - **Gemini (gemini-2.5-flash)** - LLM-powered insights and chat
 - **Plotly** - interactive data visualizations
 - **Streamlit** - web application framework
+- **HTML & CSS** - for customization
 
 
 ## Machine learning details:
