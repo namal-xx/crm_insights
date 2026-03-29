@@ -8,6 +8,7 @@ This is an AI powered CRM dashboard that scores leads and segments customers usi
 ## Links:
 
 - Check out live app [here](https://crminsights-byeryl6xnrmrnm728amppf.streamlit.app/).
+- Watch full demo video on [my channel](https://www.youtube.com/watch?v=v3zBEEgcmqU)
 - Read Article here
 
  
