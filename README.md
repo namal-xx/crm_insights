@@ -120,6 +120,8 @@ streamlit run app.py
 
 ## Usage
 
+**Note: This repository includes sample data in the sample_data/ directory. No external dataset is required to run the app.**
+
 ### Lead Scoring
 1. Navigate to the **Lead Scoring** page and upload your leads CSV
 2. Get scored leads and AI-powered follow-up recommendations
