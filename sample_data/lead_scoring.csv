@@ -1,0 +1,21 @@
+CustomerID,Name,Email,Phone,City,Industry,LeadSource,Recency,Frequency,LastInteractionDate,TotalPurchases,AvgPurchaseValue,OpenEmailRate,ClickedEmailRate,IsSubscribed
+1001,Customer_1,customer1@example.com,+923006607735,Karachi,Healthcare,LinkedIn,15,9,2026-02-07,10,9728.67,0.4,0.67,0
+1002,Customer_2,customer2@example.com,+923005553360,Islamabad,Retail,Referral,4,3,2026-02-18,1,16559.35,0.64,0.72,1
+1003,Customer_3,customer3@example.com,+923004106721,Lahore,Education,Event,13,11,2026-02-09,2,8344.36,0.72,0.68,1
+1004,Customer_4,customer4@example.com,+923004261307,Karachi,Retail,Event,26,8,2026-01-27,5,25639.96,0.88,0.35,1
+1005,Customer_5,customer5@example.com,+923004453061,Multan,Retail,LinkedIn,0,14,2026-02-22,3,3695.7,0.49,0.2,1
+1006,Customer_6,customer6@example.com,+923008865627,Islamabad,Finance,Website,21,9,2026-02-01,6,30923.81,0.74,0.24,1
+1007,Customer_7,customer7@example.com,+923003707535,Lahore,Finance,Event,23,11,2026-01-30,5,29544.82,0.66,0.61,0
+1008,Customer_8,customer8@example.com,+923002435066,Faisalabad,Healthcare,Cold Call,26,14,2026-01-27,0,42521.63,1.0,0.32,1
+1009,Customer_9,customer9@example.com,+923003389626,Karachi,Healthcare,Cold Call,22,2,2026-01-31,6,2037.73,0.64,0.47,0
+1010,Customer_10,customer10@example.com,+923004462677,Lahore,Healthcare,Referral,15,3,2026-02-07,10,15447.51,0.34,0.74,1
+1011,Customer_11,customer11@example.com,+923002586907,Islamabad,Technology,Cold Call,18,10,2026-02-04,7,36616.89,0.27,0.45,1
+1012,Customer_12,customer12@example.com,+923004161355,Karachi,Education,Website,17,14,2026-02-05,7,42529.99,0.55,0.32,1
+1013,Customer_13,customer13@example.com,+923004529493,Lahore,Healthcare,Website,17,12,2026-02-05,9,10964.34,0.75,0.21,1
+1014,Customer_14,customer14@example.com,+923003475011,Lahore,Technology,Website,2,3,2026-02-20,6,5427.25,0.34,0.27,1
+1015,Customer_15,customer15@example.com,+923005294789,Multan,Healthcare,Cold Call,5,2,2026-02-17,3,11921.0,0.79,0.73,1
+1016,Customer_16,customer16@example.com,+923004799374,Faisalabad,Retail,Referral,21,5,2026-02-01,7,8808.43,0.97,0.38,1
+1017,Customer_17,customer17@example.com,+923006522137,Faisalabad,Technology,LinkedIn,22,4,2026-01-31,3,6331.36,0.95,0.19,0
+1018,Customer_18,customer18@example.com,+923006825960,Lahore,Finance,Cold Call,13,3,2026-02-09,5,43095.34,0.6,0.52,0
+1019,Customer_19,customer19@example.com,+923005986915,Lahore,Technology,Website,2,2,2026-02-20,2,44511.99,0.1,0.25,1
+1020,Customer_20,customer20@example.com,+923006446063,Multan,Finance,Referral,30,7,2026-01-23,0,48271.97,0.78,0.41,0
