@@ -73,6 +73,9 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
 pages/
     customer_seg.py
     lead_scoring.py
+sample_data/
+    crm_segmentation_data.csv
+    lead_scoring.csv    
 README.md
 .gitignore
 requirements.txt
