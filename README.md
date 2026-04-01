@@ -2,18 +2,20 @@
 
 This is an AI powered CRM dashboard that scores leads and segments customers using Machine learning and Gemini's LLM. You can get follow-up recommendations and ask questions about your leads by using AI chat interface 
 
+![Image of home page](home-page.png)
+
+
 ## Links:
 
-- Check out live app [here](https://crminsights-byeryl6xnrmrnm728amppf.streamlit.app/).
-- Read Article here
+- Check out the [Live App](https://crminsights-byeryl6xnrmrnm728amppf.streamlit.app/).
+- Watch the full demo video on [my YouTube channel](https://www.youtube.com/watch?v=v3zBEEgcmqU)
+- Read the full article on [Medium](https://medium.com/@namalrizwan4/raw-sales-data-to-smart-decisions-an-ai-ml-powered-crm-dashboard-da52e84eac06)
  
 ## Overview:
 
 **What problem does this app solves?**
 
 Many businesses face challenges like poor lead prioritization, lack of customer segmentation, and no clear strategy for follow-ups. This app is designed to solve these problems by providing data-driven insights and intelligent recommendations.
-
- ---- an image will come here ---
 
 
  ## Features:
@@ -32,6 +34,7 @@ Many businesses face challenges like poor lead prioritization, lack of customer 
 - **Gemini (gemini-2.5-flash)** - LLM-powered insights and chat
 - **Plotly** - interactive data visualizations
 - **Streamlit** - web application framework
+- **HTML & CSS** - for customization
 
 
 ## Machine learning details:
