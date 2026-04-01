@@ -467,7 +467,7 @@ if st.session_state.user_csv is not None:
 
                 bar_fig.update_layout(
                             
-                    title = ('revenue Contribution of each cluster'),
+                    title = ('Revenue Contribution of each cluster'),
                     xaxis_tickangle = -90, # Fixes the rotated labels
                     showlegend=False,        # removes the redundant legend
                     xaxis_title='Cluster label',
