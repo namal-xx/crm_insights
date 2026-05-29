@@ -15,7 +15,10 @@ This is an AI powered CRM dashboard that scores leads and segments customers usi
 
 **What problem does this app solves?**
 
-Slow lead scoring silently drains business revenue, yet most companies don't realize it until the damage is done. 
+Slow lead scoring silently drains business revenue, yet most companies don't realize it until the damage is done. The numbers tell a brutal story: businesses lose 70–80% of potential revenue due to delayed responses, and 78% of customers simply go with whoever reaches out first. Leads contacted within 5 minutes are 100x more likely to convert compared to those reached after 30 minutes, and every minute beyond that window makes qualification 21 times less likely. For sales teams, this translates to over $75,000 lost per rep annually in missed opportunities.
+
+This app was built to solve exactly that - giving businesses AI-powered lead scoring, automated follow-up recommendations, and behavioral customer segmentation so they can identify and act on high-value leads before the window closes.
+
 
  ## Features:
  
