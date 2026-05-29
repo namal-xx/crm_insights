@@ -15,8 +15,7 @@ This is an AI powered CRM dashboard that scores leads and segments customers usi
 
 **What problem does this app solves?**
 
-Many businesses face challenges like poor lead prioritization which costs them **70%-80%** of their revenue, lack of customer segmentation, and no clear strategy for follow-ups. This app is designed to solve these problems by providing data-driven insights and intelligent recommendations.
-
+Slow lead scoring silently drains business revenue, yet most companies don't realize it until the damage is done. 
 
  ## Features:
  
