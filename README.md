@@ -41,8 +41,23 @@ This app was built to solve exactly that - giving businesses AI-powered lead sco
 
 ## Machine learning details:
 
+### Lead Scoring
+
+Scores leads by how closely their recent activity matches your existing customers.
+
+- **Features:** Recency and Frequency
+- **Label:** a customer counts as "converted" if they have at least one valid (non-cancelled) purchase
+- **Priority tiers and follow-up recommendations** are rule-based, built on top of the score.
+
+**Test results (1,675 held-out rows):** accuracy 0.64, ROC AUC 0.66, recall on converted 0.50, precision on converted 0.72.
+
+### Customer Segmentation
+
+KMeans on RFM, average order value, product diversity, and purchase interval. I chose k=3 using elbow and silhouette analysis. Silhouette was highest at k=2 (about 0.35), and about 0.29 at k=3.
+
+
 - **Models used:** 
-    - Logistic Regression - Lead scoring.
+    - Logistic Regression - Lead scoring ((with feature scaling and class-weight balancing), 80/20 train/test split).
     - KMeans - Customer segmentation  
 
 - **Feature Engineering:**    
@@ -133,6 +148,15 @@ streamlit run app.py
 1. Navigate to the **Customer Segmentation** page and upload your customer CSV
 2. View segments and AI-generated cluster labels along with their reasoning
 
+
+## Limitations
+
+- The lead score reflects **similarity to past customers**, not proven conversion likelihood. Because the non-converted class is mostly simulated, the model partly learns to separate real customers from my simulated leads.
+- Performance is modest (AUC 0.66) and has **not been validated on real lead outcomes**.
+- Only two features are used for lead-scoring. Real lead data (source, engagement, company size) would likely improve it.
+- Customer segments overlap (silhouette about 0.29 at k=3), so they are best read as descriptive profiles, not naturally separate groups.
+
+**Next step:** validate on real lead data with true conversion outcomes.
 
 ## License
 
