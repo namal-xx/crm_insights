@@ -45,9 +45,8 @@ This app was built to solve exactly that - giving businesses AI-powered lead sco
 
 Scores leads by how closely their recent activity matches your existing customers.
 
-- **Features:** Recency and Frequency
 - **Label:** a customer counts as "converted" if they have at least one valid (non-cancelled) purchase
-- **Priority tiers and follow-up recommendations** are rule-based, built on top of the score.
+- **Lead categories**: leads are labeled Hot, Warm, or Cold using cutoffs on the score.
 
 **Test results (1,675 held-out rows):** accuracy 0.64, ROC AUC 0.66, recall on converted 0.50, precision on converted 0.72.
 
